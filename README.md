@@ -5,7 +5,7 @@ TestFloat に限らず、C で入力データと期待値を生成したい場�
 Verilator のテストベンチは書きにくいといわれていますが、```@(negedge clk)``` に代わる関数を定義することでテストベンチを書きやすくしてます。
 
 ## 準備
-Windows Subsystem for Unix の Ubuntu 上で試しています  
+Windows Subsystem for Linux の Ubuntu 上で試しています  
 #### このリポジトリをクローン
 softfloat と testfloat もまとめてクローンします。
 ```
